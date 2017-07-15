@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2017, 7:05:22 PM
+    Author     : 00140206
+*/
+form{
+   
+/* para centrat el formulario poner color found*/
+
+margin: 0 auto;
+width:900px;
+background:chartreuse;
+margin-bottom: 1em;
+
+/* pones un borde */
+
+border: 1px solid #CCC;
+border-radius: 20px;
+}
+
+
+/*poner espacio entre los elementos*/
+
+form div{margin-top: 1em;
+}
+/*para asegurarnos que todos los slabels tengan el mismo ancho*/
+
+label{
+    display:inline-block;
+    width:300px;
+    text-align: right;
+    font-size: 14px;
+}
+input, textarea {
+    width: 400px;
+    font: 1em sans-serif;
+    
+    
+}
+
+/*aplicamos dentro de la seudoclase :focus un estilo diferente al elemento activo*/
+input:focus{    
+    border: 2px solid #000;
+    background: #f3f3f3;
+}
+
+textarea{
+    
+    vertical-align:middle;
+}
+button{
+    
+    margin-left: 1em;
+    font-size: 20px;
+}
+        
+h1{
+    text-align: center;        
+}
